@@ -1,5 +1,5 @@
 body {
-    margin: 0px;
+    /* margin: 0px; */
     background-color: rgb(222, 225, 232);
     display: flex;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -17,7 +17,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 1024px;
-    height: 2000px;
+    height: auto;
     background-color: rgb(255, 255, 255);
 }
 
@@ -94,7 +94,6 @@ ul {
 }
 
 #artone {
-    display: flex;
     flex-direction: column;
     align-items: center;
     margin: 10px;
@@ -102,17 +101,17 @@ ul {
 }
 
 #arttwo {
-    display: flex;
     flex-direction: column;
     align-items: center;
     background-color: grey;
+    margin: 10px;
 }
 
 #artthree {
-    display: flex;
     flex-direction: column;
     align-items: center;
     background-color: grey;
+    margin: 10px;
 }
 
 #writing {
@@ -124,4 +123,41 @@ ul {
     margin: 0;
     width: auto; 
     text-align: center;
+}
+
+
+footer {
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    background-color: rgb(136, 151, 201);
+    width: auto; 
+    text-align: center;
+    /* border: black solid 5px; */
+}
+
+#info {
+    align-items: center;
+    flex-direction: column;
+    /* border: black solid 5px; */
+    width: 500px;
+    font-size: 15px;
+}
+
+#boxfour {
+    display: flex;
+    /* background-color: grey; */
+    justify-content: space-around;
+
+}
+
+.writing {
+    border: black solid 3pt;
+    /* background-color: white; */
+    margin: 2%;
+}
+
+.abt {
+    /* overflow: scroll; */
+    margin: 2%;
 }
