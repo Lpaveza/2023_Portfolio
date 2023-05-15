@@ -2,6 +2,12 @@ body {
     margin: 0px;
     background-color: rgb(222, 225, 232);
     display: flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+p {
+    font-size: 20px;
 }
 
 #maincontainer {
@@ -16,15 +22,14 @@ body {
 }
 
 .title {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 125px;
     display: flex;
     justify-content: space-around;
     background-color: rgb(136, 151, 201);
-    /* height: 171px; */
+    height: 171px;
     margin: 0;
     width: auto; 
     text-align: center;
-
 }
 
 ul {
@@ -41,7 +46,82 @@ ul {
     justify-content: space-around;
  }
 
- .one {
+ #container {
+    display: flex;
     flex-direction: row;
-    width: auto;
+    justify-content: space-around;
+    margin: 10px;
  }
+
+#box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+#boxtwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+#boxthree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+#art {
+    font-size: 125px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(136, 151, 201);
+    height: 171px;
+    /* margin-top: 50px; */
+    margin: 0;
+    width: auto; 
+    text-align: center;
+}
+
+#artcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+#artone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    background-color: grey;
+}
+
+#arttwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+}
+
+#artthree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+}
+
+#writing {
+    font-size: 125px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(136, 151, 201);
+    height: 171px;
+    margin: 0;
+    width: auto; 
+    text-align: center;
+}
