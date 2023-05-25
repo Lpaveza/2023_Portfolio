@@ -1,19 +1,19 @@
 body {
-    /* margin: 0px; */
+    margin: 0px;
     background-color: rgb(222, 225, 232);
     display: flex;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
 p {
     font-size: 20px;
+    font-kerning: auto;
 }
 
 #maincontainer {
     position: absolute;
     left: 0;
     right: 0;
+    /* margin: 50px; */
     margin-left: auto;
     margin-right: auto;
     width: 1024px;
@@ -34,30 +34,53 @@ p {
 
 ul {
     list-style-type: none;
-    
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+    text-decoration: none;
+    background-color: rgba(136, 151, 201, 0.494);    
+    height: 100px;
+    padding: 0%;
+    margin: 0%;
+    align-items: center;
 }
- .nav {
+ /* .nav {
+    display: flex;
     align-self: center;
- }
+    justify-content: space-around;
 
- #nav {
+ } */
+
+ /* #nav {
     background-color: rgba(136, 151, 201, 0.494);    
     display: flex;
     justify-content: space-around;
- }
+    text-align: center;
+    flex-direction: row;
+ } */
 
- #container {
+ #about {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin: 10px;
+    /* flex-direction: column-wrap; */
+    height: 700px;
  }
 
+h2 {
+    margin: 3%;
+}
 #box {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10px;
+    /* margin: 10px; */
+    width: 300px;
+    height: 263px;
+    /* border: 5px solid black; */
+    margin: 0px;
 }
 
 #boxtwo {
@@ -65,6 +88,9 @@ ul {
     flex-direction: column;
     align-items: center;
     margin: 10px;
+    width: 208px ;
+    height: 408px;
+    margin: 0px;
 }
 
 #boxthree {
@@ -72,6 +98,19 @@ ul {
     flex-direction: column;
     align-items: center;
     margin: 10px;
+    width: 430px;
+    height: 480px ;  
+    margin: 0px;
+}
+
+#boxfour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    /* width: 196px;
+    height: 463px; */
+    /* border: 5px solid black; */
 }
 
 #art {
@@ -97,22 +136,17 @@ ul {
     flex-direction: column;
     align-items: center;
     margin: 10px;
-    background-color: grey;
+    background-color: rgb(255, 255, 255);
 }
 
 #arttwo {
     flex-direction: column;
     align-items: center;
-    background-color: grey;
+    background-color: rgb(255, 255, 255);
     margin: 10px;
 }
 
-#artthree {
-    flex-direction: column;
-    align-items: center;
-    background-color: grey;
-    margin: 10px;
-}
+
 
 #writing {
     font-size: 125px;
@@ -148,16 +182,24 @@ footer {
     display: flex;
     /* background-color: grey; */
     justify-content: space-around;
-
+    flex-direction: row;
+    /* height: 1000px; */
+    width: auto;
 }
 
 .writing {
     border: black solid 3pt;
     /* background-color: white; */
     margin: 2%;
+    width: 2500px;
+    padding: 10px;
 }
 
 .abt {
     /* overflow: scroll; */
     margin: 2%;
+    border: black solid 3pt;
+    padding: 10px;
 }
+
+
